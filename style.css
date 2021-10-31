@@ -9,11 +9,19 @@
     background: url(./pic/5.jpg);
     height: 80px;
     overflow: hidden;
+    border-bottom: 2px solid rgb(238, 123, 15);
+    position: sticky;
+    top: 0;
 }
 .logo{
-    color: rgb(221, 120, 26);
-    margin-top: 20px;
+    color: rgb(238, 123, 15);
+    font-size: 40px;
+    margin-top: 15px;
     margin-left: 50px;
+    transition: all 0.5s;
+}
+.logo:hover{
+    color: rgb(58, 250, 0);
 }
 nav ul{
     display: flex;
@@ -25,13 +33,14 @@ nav ul{
 nav ul li a{
     text-decoration: none;
     text-transform: uppercase;
-    color: black;
+    color: rgb(238, 123, 15);
     font-weight: 600;
     margin-left: 30px;
+    padding-bottom: 5px;
 }
 nav ul li a:hover{
     color: #fff;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid rgb(238, 123, 15);
 }
 /* Content */
 .contentcontainer{
@@ -39,13 +48,13 @@ nav ul li a:hover{
     background: url(./pic/2.png);
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: 2px;
 }
+/* content writing */
 .content{
     width: 500px;
     height: 400px;
     float: right;
-    margin-right: 20px;
+    margin-right: 70px;
     margin-top: 60px;
     border: 2px solid white;
     border-radius: 10px;
@@ -101,4 +110,8 @@ i a:hover{
 }
 .explore:hover{
     background: rgba(54, 172, 226, 0.753);
+}
+/* Service */
+.service{
+    height: 3000px;
 }
