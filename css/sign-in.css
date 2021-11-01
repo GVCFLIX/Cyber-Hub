@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* sign in div  */
+.sign-in-container{
+    display: flex;
+    justify-content: right;
+    background: url(../pic/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.sign-in{
+    width: 500px;
+    height: 400px;
+    margin-top: 50px;
+    margin-right: 50px;
+    border: 3px solid rgb(238, 123, 15);
+    border-radius: 10px;
+    background-color: rgba(75, 58, 58, 0.692);
+}
+/* Form  */
+.title{
+    color: rgb(238, 123, 15);
+    text-align: center;
+    margin-top: 10px;
+}
+form{
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+    color: #fff;
+}
+form input{
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(235, 28, 28);
+}
+input[type="button"]{
+    width: 100px;
+    height: 50px;
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    background: rgb(235, 28, 28);
+    border-bottom: none;
+    border-radius: 60px;
+    color: #fff;
+    transition: all 0.5s;
+}
+input[type="button"]:hover{
+    color: rgb(238, 123, 15);
+    background: rgba(56, 86, 150, 0.897);
+}
+/* forgot  */
+.forgot-div{
+    margin-top: 30px;
+    text-align: center;
+}
+.forgot{
+    color: rgba(20, 169, 214, 0.952);
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.create{
+    font-weight: 600;
+    margin-top: 10px;
+}
+/* Footer  */
+.footer-container{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.918);
+}
+span{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 20px;
+    color: rgb(0, 68, 255);
+}
