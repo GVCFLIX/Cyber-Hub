@@ -97,7 +97,7 @@ i a{
     cursor: pointer;
 }
 i a:hover{
-    color: orange;
+    color: rgb(238, 123, 15);
 }
 .explore{
     text-decoration: none;
@@ -113,5 +113,41 @@ i a:hover{
 }
 /* Service */
 .service{
-    height: 3000px;
+    height: 1250px;
+}
+/* Footer */
+footer{
+    background: rgb(37, 35, 35);
+}
+.footer-title{
+    display: flex;
+    justify-content: center;
+    color: rgb(238, 123, 15);
+    padding: 10px;
+    text-decoration: underline #fff;
+}
+.info-icon{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.icon{
+    font-size: 40px;
+    transition: all 0.5s;
+    margin-bottom: 15px;
+}
+.icon:hover{
+    color: #fff;
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.918);
+}
+span{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 20px;
+    color: rgb(0, 68, 255);
 }
